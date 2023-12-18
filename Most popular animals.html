@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .box {
+      width: calc(50% - 20px);
+      margin-bottom: 40px;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .p {
+      margin-top: 20px;
+    }
+
+    .h2 {
+      margin-top: 20px;
+    }
+
+    /* Media query for screens 800px wide and above */
+    @media (min-width: 800px) {
+      .box {
+        width: calc(25% - 20px);
+      }
+    }
+
+    /* Media query for screens 600px wide and above */
+    @media (max-width: 600px) {
+      .box {
+        width: calc(50% - 20px);
+      }
+
+  </style>
+</head>
+<body>
+  <center><h1>Most Popular Animals (Top 4)</h1></center>
+  <div class="container">
+    <div class="box">
+      <h2 class="h2">Top 1: Dogs</h2>
+      <img src="puppi.png" alt="Puppy">
+      <p class="p">The dog is a domesticated descendant of the wolf. Also called the domestic dog, it is derived from extinct Pleistocene wolves, and the modern wolf is the dog's nearest living relative. The dog was the first species to be domesticated by humans.</p>
+    </div>
+
+    <div class="box">
+      <h2 class="h2">Top 2: Cats</h2>
+      <img src="cats.jpg" alt="Cats">
+      <p class="p">The cat, commonly referred to as the domestic cat or house cat, is the only domesticated species in the family Felidae. Recent advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC</p>
+    </div>
+
+    <div class="box">
+      <h2 class="h2">Top 3: Chickens</h2>
+      <img src="chicken.png" alt="chicken">
+      <p class="p">The chicken is a domesticated species that arose from the red junglefowl, originally from Southeast Asia. They have also partially hybridized with other wild species of junglefowl. Rooster and cock are terms for adult male birds, and a younger male may be called a cockerel. A male that has been castrated is a capon.</p>
+    </div>
+
+    <div class="box">
+      <h2 class="h2">Top 4: Horses</h2>
+      <img src="horse.jpg" alt="Horsie">
+      <p class="p">The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, close to Eohippus, into the large, single-toed animal of today.</p>
+    </div>
+  </div>
+</body>
+</html>
